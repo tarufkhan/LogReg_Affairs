@@ -1,5 +1,4 @@
-# Logistic Regression on Extra Marital Affairs dataset
-### Aim - To predict whether a woman had an extra marital affair or not, using Logistic Regression.
+## Predict whether a woman had an extra marital affair or not, using Logistic Regression.
 ### Brief about dataset -
 The dataset is the affairs dataset that comes with Stats models. It was derived from a survey of women in 1974 by Red book magazine, in which married women were asked about their participation in extramarital affairs. Treating this as a classification problem and trying to predict the classification for each woman. Variables that are present in the dataset for prediction are :-
 * rate_marriage(women’s rating for her marriage)
@@ -12,7 +11,7 @@ The dataset is the affairs dataset that comes with Stats models. It was derived 
 * occupation(of husband)
 * affairs
 
-### Workflow & results-
+### Workflow & Results -
 * Import all the required libraries and modules.
 * Load dataset from the statsmodels library. 
 * Shape of the dataset is (6366, 9), has no null values.
