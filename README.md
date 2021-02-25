@@ -31,7 +31,7 @@ The dataset is the affairs dataset that comes with Stats models. It was derived 
 * Now, rename the features generated after patsy so that it will be easy to work.
 * Check null values and also look whether the dataset is balanced or not.
 * On checking for the balance in the dataset we get this result.
-![screenshot2](/img/log1.PNG)
+![screenshot1](/img/log1.PNG)
 * As the dataset is highly imbalanced so we will use RandomOverSampler to balance the dataset. On performing that we got this.
 ![screenshot2](/img/log2.PNG)
 * After balancing the dataset, our rows have increased but there are no null values.
