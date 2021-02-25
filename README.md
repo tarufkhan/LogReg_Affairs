@@ -50,7 +50,7 @@ The dataset is the affairs dataset that comes with Stats models. It was derived 
   * F1 Score - 0.6875287620800736
   * Specificity - 0.6928909952606636
   * AUC - 0.6852956652274168
-* And the Confusion Matrix -
+* And the Confusion Matrix is -
 ![screenshot5](/img/log5.PNG)
 * Lastly, the AUC ROC curve is -
 ![screenshot6](/img/log6.PNG)
