@@ -11,16 +11,7 @@ The dataset is the affairs dataset that comes with Stats models. It was derived 
 * occupation(of women)
 * occupation(of husband)
 * affairs
-### Required libraries / modules -
-1. Pandas 
-2. Numpy
-3. Sklearn
-4. Statsmodels
-5. Matplotlib
-6. Seaborn
-7. Patsy
-8. Imblearn
-9. Warnings
+
 ### Workflow & results-
 * Import all the required libraries and modules.
 * Load dataset from the statsmodels library. 
