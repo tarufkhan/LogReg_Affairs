@@ -31,17 +31,15 @@ The dataset is the affairs dataset that comes with Stats models. It was derived 
 * Now, rename the features generated after patsy so that it will be easy to work.
 * Check null values and also look whether the dataset is balanced or not.
 * On checking for the balance in the dataset we get this result.
-<p align="center">
-  <img src="/img/log1.png" width="350" title="hover text">
- </p>
+![screenshot2](/img/log1.PNG)
 * As the dataset is highly imbalanced so we will use RandomOverSampler to balance the dataset. On performing that we got this.
-![screenshot2](/img/log2.png)
+![screenshot2](/img/log2.PNG)
 * After balancing the dataset, our rows have increased but there are no null values.
 * Shape of the dataset (8626, 18).
 * Now plot the data distribution and perform outlier detection. Observing the results we get that there are no such outliers to care about.
-![screenshot3](/img/log3.png)
+![screenshot3](/img/log3.PNG)
 * Here now, we dropped some columns, named = 'Intercept', 'occ_1', 'occ_2', 'occ_3', 'occ_4', 'occ_5', 'occ_husb_2', 'occ_husb_3', 'occ_husb_4', 'occ_husb_5', 'occ_husb_6'. And plot how other independent variables are affecting the dependent variable.
-![screenshot4](/img/log4.png)
+![screenshot4](/img/log4.PNG)
 * Prepare data for the model, apply Standard Scaler and train_test_split.
 * On checking the VIF values, the results are in normal range.
 * Fit data into Logistic Regression and start the prediction.
@@ -53,7 +51,7 @@ The dataset is the affairs dataset that comes with Stats models. It was derived 
   * Specificity - 0.6928909952606636
   * AUC - 0.6852956652274168
 * And the Confusion Matrix -
-![screenshot5](/img/log5.png)
+![screenshot5](/img/log5.PNG)
 * Lastly, the AUC ROC curve is -
-![screenshot6](/img/log6.png)
+![screenshot6](/img/log6.PNG)
 * We can also give some new values to check what our model might predict.
