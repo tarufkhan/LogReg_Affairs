@@ -32,8 +32,8 @@ The dataset is the affairs dataset that comes with Stats models. It was derived 
 * Check null values and also look whether the dataset is balanced or not.
 * On checking for the balance in the dataset we get this result.
 ![screenshot1](/img/log1.PNG)
-* As the dataset is highly imbalanced so we will use RandomOverSampler to balance the dataset. On performing that we got this.
-![screenshot2](/img/log2.PNG)
+* As the dataset is highly imbalanced so we will use RandomOverSampler to balance the dataset. On performing that -
+[screenshot2](/img/log2.PNG)
 * After balancing the dataset, our rows have increased but there are no null values.
 * Shape of the dataset (8626, 18).
 * Now plot the data distribution and perform outlier detection. Observing the results we get that there are no such outliers to care about.
