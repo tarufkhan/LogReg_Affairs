@@ -51,4 +51,5 @@ The dataset is the affairs dataset that comes with Stats models. It was derived 
   * Specificity - 0.6928909952606636
   * AUC - 0.6852956652274168
 * And the Confusion Matrix
+
 ![screenshot5](/img/log5.PNG)
